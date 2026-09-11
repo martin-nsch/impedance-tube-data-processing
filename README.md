@@ -1,6 +1,8 @@
 # impedance-tube-data-processing
 MATLAB tools for extracting, processing and plotting of sound absorption coefficient curves from two-microphone impedance tube experiments. Follows ISO 10534-2.
 
+  ![Set up](acoustic_tube_setup.jpeg)
+
 ## Overview
 This repository provides an automated workflow for calculating acoustic properties from raw experimental data. The toolset is built around three core scripts:
 * **'data_extractor.m'**: This is the data processing script. It utilizes the Transfer Function Method to determine the absorption coefficient.\
