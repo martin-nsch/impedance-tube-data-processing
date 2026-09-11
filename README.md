@@ -1,5 +1,5 @@
 # impedance-tube-data-processing
-MATLAB tools for extracting, processing and plotting of sound absorption coefficient curves from two-microphone impedance tube experiments. Follows ISO 10534-2.
+MATLAB tools for extracting, processing and plotting of sound absorption coefficient curves from two-microphone impedance tube experiments. Follows ISO 10534-2. 
 
   ![Set up](acoustic_tube_setup.jpeg)
 
@@ -81,3 +81,6 @@ $$H_{12} = \frac{H_{12}}{H_c}$$
 Finally, the normal incidence sound absorption coefficient $\alpha_{12}$ can be computed:
   
 $$\alpha_{12} = 1 - |r_{12}|^2$$
+
+## Acknowledgments
+The experimental impedance tube data utilized and processed by these MATLAB tools was kindly provided by [Gabriela Parda](https://www.linkedin.com/in/gabriela-parda-162baa191/). These scripts were originally developed to support the analysis of their research and experimental testing.
