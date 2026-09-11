@@ -40,7 +40,7 @@ Once your folders are structured, running `impedance_tube_auto_plotter.m` or `Co
 
 
 **1. Transfer Function Estimation**\
-Data for microphone 1 and microphone 2 (measured in [mV/m/s^2]) is extracted from the .txt files. The transfer functions are readily obtained via MATLAB's built in 'tfestimate'. It is ran with the following arguments:
+Data for microphone 1 and microphone 2 (measured in [mV/m/s^2]) is extracted from the .txt files. The transfer functions are readily obtained via MATLAB's built in `tfestimate`. It is ran with the following arguments:
 ```text
     nfft = 8192;                % Fixed block length for +/- 3Hz frequency resolution
     window = hann(nfft);        % Hanning window to prevent spectral leakage
