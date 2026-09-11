@@ -23,7 +23,7 @@ function [alpha_mat] = data_extractor(file_mic1, file_mic2,Type,Corrector)
     window = hann(nfft);        % Hanning window to prevent spectral leakage
     noverlap = nfft / 2;        % 50% window overlap to recover tapered data
     fsamp = 25000;              % Sampling frequency (Hz)
-    freq_lim = 2000;            % Upper frequency limit (Hz) for Excel export
+    freq_lim = 2000;            % Upper frequency limit (Hz)
     
     % Load target experiment file
     if Type == "FWD"
