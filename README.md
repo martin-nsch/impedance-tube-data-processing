@@ -5,14 +5,14 @@ MATLAB tools for extracting, processing and plotting of sound absorption coeffic
 
 ## Overview
 This repository provides an automated workflow for calculating acoustic properties from raw experimental data. The toolset is built around three core scripts:
-* **'data_extractor.m'**: This is the data processing script. It utilizes the Transfer Function Method to determine the absorption coefficient.\
+* **`data_extractor.m`**: This is the data processing script. It utilizes the Transfer Function Method to determine the absorption coefficient.\
 It takes two impedance tube tests, with the same sample but reversed microphone positions (i.e. microphone 1 is in position 1 for test 1, but is in position 2 for test 2), such that it can use those two tests to filter out sensor amplitude and phase mismatch (in the case that correction=true).
 
-* **'impedance_tube_auto_plotter.m'**: This is a batch processing script. It scans the repository for all folders and will generate the standalone absorbance vs. frequency plot for every experimnent. This is very convenient for processing a large number of experiments present.
+* **`impedance_tube_auto_plotter.m`**: This is a batch processing script. It scans the repository for all folders and will generate the standalone absorbance vs. frequency plot for every experimnent. This is very convenient for processing a large number of experiments present.
   
   ![Single Plot Example](single_plot_example.png)
 
-* **'Compound_plotter.m'**: This is a visualization tool for comparative analysis. It processes selected experiments and plots their absorption curves in one figure.
+* **`Compound_plotter.m`**: This is a visualization tool for comparative analysis. It processes selected experiments and plots their absorption curves in one figure.
   
   ![Compound Plot Example](compound_plot_example.png)
 
